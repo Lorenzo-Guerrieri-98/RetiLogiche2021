@@ -68,3 +68,7 @@ A questo punto il test è pronto per essere lanciato. Si tenga presente che ques
 
 ### Output
 Il test bench genera un file `.txt` in output al percorso inserito alla linea 109. In questo file sono segnalati tutti pixel che sono risultati sbagliati dopo la conversione indicando il test da cui provengono e il numero del pixel relativo all'interno del test. Vengono scritti sia il valore corretto che quello effettivamente stampato dal modulo.
+
+Esempio di contenuto di del file di output:
+
+    TEST 5: pixel 4 expected 100 found 204
