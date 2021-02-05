@@ -66,5 +66,5 @@ Per utiliazzare il file `multipleTests.vhd` è necessario modificare le linee 68
 Bisogna inoltre modificare il percorso alla linea 109. Questo deve essere il percorso di un file di testo (non necessariamente esistente) in cui verrano segnalati i test che non sono stati passati (es: `path/to/NotPassed.txt`).  
 A questo punto il test è pronto per essere lanciato. Si tenga presente che questo test manda il segnale di reset del modulo prima dell'esecuzione del primo test e poi suppone che sia il modulo stesso a riportarsi nella condizione di eseguire un'altra conversione.
 
-###Output
+### Output
 Il test bench genera un file `.txt` in output al percorso inserito alla linea 109. In questo file sono segnalati tutti pixel che sono risultati sbagliati dopo la conversione indicando il test da cui provengono e il numero del pixel relativo all'interno del test. Vengono scritti sia il valore corretto che quello effettivamente stampato dal modulo.
